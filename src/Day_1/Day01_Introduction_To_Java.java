@@ -186,6 +186,7 @@ Why Java?
 
 Java = Portable + Simple + Secure
 
+
 MOST IMPORTANT INTERVIEW LINE:
 
 "Java is platform independent because it uses JVM
