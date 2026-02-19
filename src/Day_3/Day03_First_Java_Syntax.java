@@ -1,15 +1,15 @@
 package Day_3;
+
 /*
 ===========================================================
-DAY 03 - First Java Program + Syntax (Revision File)
+DAY 03 - First Java Program + Syntax (Proper Revision)
 Author: Om
-Focus: Program Structure, main(), System.out.println()
+Lecture Focus:
+1. Java Program Structure
+2. main() Method
+3. System.out.println()
+4. How Java Program Runs
 ===========================================================
-
-Goal:
-- Understand Java Syntax
-- Understand main() method
-- Understand how Java program runs
 */
 
 public class Day03_First_Java_Syntax {
@@ -17,57 +17,60 @@ public class Day03_First_Java_Syntax {
     // Main Method = Entry point of Java Program
     public static void main(String[] args) {
 
-        // 1. First Print Statement
+        // 1. First Java Output
         System.out.println("Hello World - Day 3 Java");
 
-        // 2. Calling explanation methods (for revision)
+        // Calling revision explanation methods
         explainProgramStructure();
         explainMainMethod();
         explainPrintStatement();
     }
 
-    // 1️⃣ Basic Java Program Structure
+    // 1️⃣ Java Program Structure (VERY IMPORTANT)
     public static void explainProgramStructure() {
 
         /*
-        Structure of every Java Program:
+        Basic Structure of every Java Program:
 
         public class ClassName {
             public static void main(String[] args) {
-                // Code Here
+                // Code Execution Starts Here
             }
         }
         */
 
-        System.out.println("\nJava Program Structure Understood.");
+        System.out.println("\n✔ Java Program Structure Understood.");
     }
 
-    // 2️⃣ main() Method Deep Breakdown (INTERVIEW IMPORTANT)
+    // 2️⃣ main() Method Deep Explanation (INTERVIEW IMPORTANT)
     public static void explainMainMethod() {
 
         /*
-        public  → Access modifier (Accessible everywhere)
-        static  → No object needed to run main()
-        void    → Does not return anything
+        public  → Access modifier (accessible everywhere)
+        static  → No object needed to call main()
+        void    → Does not return any value
         main()  → Starting point of execution
         String[] args → Command line arguments
+
+        Important:
+        JVM always looks for main() method to start program.
         */
 
-        System.out.println("main() method = Starting point of program execution.");
+        System.out.println("✔ main() method = Starting point of Java program execution.");
     }
 
-    // 3️⃣ System.out.println Explanation
+    // 3️⃣ System.out.println() Explanation
     public static void explainPrintStatement() {
 
         /*
-        System → Predefined Class
-        out    → Output Stream Object
-        println → Method to print with new line
+        System  → Predefined Class (java.lang)
+        out     → Output stream object
+        println → Method (prints with new line)
 
         Flow:
         System → out → println() → Output on Console
         */
 
-        System.out.println("System.out.println prints output to console.");
+        System.out.println("✔ System.out.println() prints output to console.");
     }
 }
