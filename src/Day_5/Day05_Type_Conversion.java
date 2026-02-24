@@ -67,7 +67,6 @@ Because byte = 8 bits
 
 CALCULATION EXAMPLE: 300 → byte
 -------------------------------------------------------------------------------
-
 STEP 1: Understand Byte Range
 --------------------------------
 byte range = -128 to 127
