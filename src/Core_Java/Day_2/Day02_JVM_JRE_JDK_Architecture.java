@@ -1,4 +1,4 @@
-package Day_2;
+package Core_Java.Day_2;
 /*
 ===========================================================
 DAY 02 - CORE JAVA (JVM, JRE, JDK + Editions)

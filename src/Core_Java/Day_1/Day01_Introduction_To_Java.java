@@ -1,4 +1,4 @@
-package Day_1;
+package Core_Java.Day_1;
 /*
 ===========================================================
 DAY 01 - CORE JAVA (INTRODUCTION)
