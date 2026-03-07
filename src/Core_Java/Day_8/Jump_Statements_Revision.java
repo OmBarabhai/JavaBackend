@@ -28,7 +28,7 @@ BREAK vs CONTINUE (INTERVIEW TABLE)
 ===============================================================================
 */
 
-public class Day08_Jump_Statements_Revision {
+public class Jump_Statements_Revision {
 
     public static void main(String[] args) {
 

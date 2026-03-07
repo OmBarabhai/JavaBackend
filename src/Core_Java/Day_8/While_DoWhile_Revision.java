@@ -30,7 +30,7 @@ WHILE vs DO-WHILE (INTERVIEW TABLE)
 ===============================================================================
 */
 
-public class Day08_While_DoWhile_Revision {
+public class While_DoWhile_Revision {
 
     public static void main(String[] args) {
 

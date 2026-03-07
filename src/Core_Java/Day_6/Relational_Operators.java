@@ -28,7 +28,7 @@ VERY IMPORTANT:
 == → Comparison (INTERVIEW TRAP)
 */
 
-public class Day06_Relational_Operators {
+public class Relational_Operators {
 
     public static void main(String[] args) {
 

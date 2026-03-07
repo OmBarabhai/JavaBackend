@@ -37,7 +37,7 @@ Value:  [ ] [ ] [ ] [ ] [ ]
 ===============================================================================
 */
 
-public class Day09_Array_Input_Max_Min_LinearSearch {
+public class Array_Input_Max_Min_LinearSearch {
 
     public static void main(String[] args) {
 

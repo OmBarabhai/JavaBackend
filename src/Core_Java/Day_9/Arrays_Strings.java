@@ -18,7 +18,7 @@ Key Points:
 ===============================================================================
 */
 
-public class Day09_Arrays_Strings {
+public class Arrays_Strings {
 
     public static void main(String[] args) {
 

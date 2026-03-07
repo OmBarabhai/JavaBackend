@@ -26,7 +26,7 @@ Integer Division removes decimal part (Truncation)
 10 / 3 = 3 (NOT 3.33)
 */
 
-public class Day06_Arithmetic_Operators {
+public class Arithmetic_Operators {
 
     public static void main(String[] args) {
 

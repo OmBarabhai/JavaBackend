@@ -21,7 +21,7 @@ IMPORTANT DIFFERENCE:
 ===============================================================================
 */
 
-public class Day06_Bitwise_And_ShortCircuit {
+public class Bitwise_And_ShortCircuit {
 
     public static void main(String[] args) {
 

@@ -14,7 +14,7 @@ Lecture Understanding (Day 1):
 - Write Once Run Anywhere (WORA)
 */
 
-public class Day01_Introduction_To_Java {
+public class Introduction_To_Java {
 
     public static void main(String[] args) {
 

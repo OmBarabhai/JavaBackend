@@ -17,7 +17,7 @@ Shift operators move BITS (0 and 1), not decimal numbers.
 ===============================================================================
 */
 
-public class Day06_Shift_Operators {
+public class Shift_Operators {
 
     public static void main(String[] args) {
 

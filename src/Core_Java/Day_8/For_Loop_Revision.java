@@ -28,7 +28,7 @@ STEP 6: Repeat steps 3-5 until condition becomes false
 ===============================================================================
 */
 
-public class Day08_For_Loop_Revision {
+public class For_Loop_Revision {
 
     public static void main(String[] args) {
 

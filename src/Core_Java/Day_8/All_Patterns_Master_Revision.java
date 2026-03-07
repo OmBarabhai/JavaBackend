@@ -40,7 +40,7 @@ PATTERN FORMULA CHEAT TABLE (VERY IMPORTANT)
 ===============================================================================
 */
 
-public class Day08_All_Patterns_Master_Revision {
+public class All_Patterns_Master_Revision {
 
     public static void main(String[] args) {
 

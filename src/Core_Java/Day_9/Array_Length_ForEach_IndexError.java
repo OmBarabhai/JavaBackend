@@ -34,7 +34,7 @@ Last Index = length - 1 = 4
 ===============================================================================
 */
 
-public class Day09_Array_Length_ForEach_IndexError {
+public class Array_Length_ForEach_IndexError {
 
     public static void main(String[] args) {
 
