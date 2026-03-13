@@ -1,0 +1,170 @@
+============================================================================
+DAY 14 – CALL BY VALUE vs OBJECT REFERENCE
+============================================================================
+
+IMPORTANT FACT
+
+Java ALWAYS uses CALL BY VALUE.
+
+But for objects the VALUE passed is the REFERENCE (address).
+
+So it may look like Call By Reference, but internally it is still Call By Value.
+
+============================================================================
+1️⃣ CALL BY VALUE (PRIMITIVE TYPES)
+============================================================================
+
+Example:
+
+int x = 2;
+int y = 5;
+
+addTen(x,y);
+
+Method:
+
+static void addTen(int x,int y){
+    x = x + 10;
+    y = y + 10;
+}
+
+Output:
+2 , 5
+
+Reason:
+
+Java passes COPY of values.
+
+Memory flow:
+
+Main Method
+-----------
+x = 2
+y = 5
+
+Method Call
+-----------
+x = 2 (copy)
+y = 5 (copy)
+
+Inside method
+-------------
+x = 12
+y = 15
+
+But original values remain unchanged.
+
+============================================================================
+2️⃣ OBJECT PARAMETER (REFERENCE VALUE PASSED)
+============================================================================
+
+Example:
+
+Random r1 = new Random(4,6);
+addTen(r1);
+
+Method:
+
+static void addTen(Random r){
+    r.x = r.x + 10;
+    r.y = r.y + 10;
+}
+
+Output:
+
+14 , 16
+
+Reason:
+
+Java passes COPY of reference.
+
+Memory structure:
+
+STACK
+--------------------------------------
+r1 → 1000
+
+METHOD STACK
+--------------------------------------
+r → 1000 (copy of reference)
+
+HEAP
+--------------------------------------
+Object
+x = 4
+y = 6
+
+When method updates object fields:
+
+x = 14
+y = 16
+
+Since both references point to SAME object,
+changes become visible outside method.
+
+============================================================================
+3️⃣ SHALLOW COPY vs DEEP COPY
+============================================================================
+
+Example from code:
+
+Random r1 = new Random(4,6);
+
+Random r2 = new Random(r1);  // deep copy
+Random r3 = r1;              // shallow copy
+
+Shallow Copy
+--------------------------------------
+Both references point to SAME object.
+
+r3 = r1
+
+Memory:
+
+r1 → object
+r3 → object
+
+Change in r3 affects r1.
+
+
+Deep Copy
+--------------------------------------
+Creates NEW object with copied values.
+
+Random r2 = new Random(r1);
+
+Memory:
+
+r1 → object1
+r2 → object2
+
+Changes in r2 DO NOT affect r1.
+
+============================================================================
+INTERVIEW QUESTIONS
+============================================================================
+
+1️⃣ Is Java call by value or reference?
+
+Answer:
+Java is strictly CALL BY VALUE.
+
+2️⃣ Why objects appear like call by reference?
+
+Because the VALUE passed is the reference (address).
+
+3️⃣ Difference between shallow copy and deep copy?
+
+Shallow copy → same object reference
+Deep copy → new object with copied values
+
+============================================================================
+FAST REVISION
+============================================================================
+
+Primitive → value copied
+Object → reference value copied
+
+Java → always CALL BY VALUE
+
+============================================================================
