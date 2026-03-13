@@ -1,0 +1,37 @@
+/*
+----------------------------------------------------------------------------
+STATIC BLOCK
+----------------------------------------------------------------------------
+
+Static block runs when class is loaded.
+
+It runs ONLY ONCE regardless of how many objects are created.
+
+Example:
+
+static {
+    grade = 8;
+}
+
+Execution order:
+
+1 Class loads
+2 Static block executes
+3 Objects are created
+
+----------------------------------------------------------------------------
+
+Use cases:
+
+• Initialize static variables
+• Load configuration
+• Database driver loading
+
+----------------------------------------------------------------------------
+
+INTERVIEW POINT
+
+Static block runs before main().
+
+----------------------------------------------------------------------------
+*/

@@ -1,0 +1,68 @@
+/*
+============================================================================
+FINAL KEYWORD – INTERVIEW REVISION
+Author: Om
+============================================================================
+
+final means constant value.
+
+Once assigned it cannot be changed.
+
+Example:
+
+final int x = 4;
+
+x = 10  ❌ ERROR
+
+----------------------------------------------------------------------------
+
+final with variables
+
+final int x = 4;
+
+Value cannot be modified.
+
+----------------------------------------------------------------------------
+
+final with methods
+
+Method cannot be overridden.
+
+----------------------------------------------------------------------------
+
+final with class
+
+Class cannot be inherited.
+
+Example:
+
+final class A {}
+
+class B extends A ❌ ERROR
+
+----------------------------------------------------------------------------
+
+Example from code:
+
+static final double PI;
+
+static{
+    PI = 3.14;
+}
+
+Here:
+
+PI becomes constant for entire program.
+
+----------------------------------------------------------------------------
+
+INTERVIEW POINT
+
+final + static is commonly used for constants.
+
+Example:
+
+static final double PI = 3.14;
+
+============================================================================
+*/

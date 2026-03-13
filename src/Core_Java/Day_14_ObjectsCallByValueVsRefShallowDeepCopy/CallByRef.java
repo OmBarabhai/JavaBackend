@@ -1,5 +1,71 @@
 package Core_Java.Day_14_ObjectsCallByValueVsRefShallowDeepCopy;
+/*
+============================================================================
+OBJECT PARAMETER PASSING
+============================================================================
 
+Java is STILL Call By Value even for objects.
+
+But the VALUE passed is the REFERENCE (address).
+
+So both variables point to the SAME object.
+
+----------------------------------------------------------------------------
+
+Example:
+
+Random r1 = new Random(4,6);
+
+addTen(r1);
+
+Method:
+
+static void addTen(Random r){
+    r.x = r.x + 10;
+    r.y = r.y + 10;
+}
+
+Result:
+14 , 16
+
+----------------------------------------------------------------------------
+
+MEMORY STRUCTURE
+
+STACK
+-----
+r1 → 1000
+
+METHOD STACK
+------------
+r → 1000 (copy of reference)
+
+HEAP
+----
+Object
+x = 4
+y = 6
+
+After modification
+
+x = 14
+y = 16
+
+Since both references point to SAME object,
+changes are visible outside method.
+
+----------------------------------------------------------------------------
+
+INTERVIEW POINT
+
+Java does NOT support Call By Reference.
+
+Java only supports Call By Value.
+
+But for objects the VALUE passed is the reference.
+
+============================================================================
+*/
 public class CallByRef {
     public static void main(String[] args) {
         Random r1 = new Random(4,6);

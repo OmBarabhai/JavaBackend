@@ -33,7 +33,7 @@ public class Day03_First_Java_Syntax {
         Basic Structure of every Java Program:
 
         public class ClassName {
-            public static void main(String[] args) {
+            public static void main(String[] COMMAND LINE ARGUMENTS) {
                 // Code Execution Starts Here
             }
         }
@@ -50,7 +50,7 @@ public class Day03_First_Java_Syntax {
         static  → No object needed to call main()
         void    → Does not return any value
         main()  → Starting point of execution
-        String[] args → Command line arguments
+        String[] COMMAND LINE ARGUMENTS → Command line arguments
 
         Important:
         JVM always looks for main() method to start program.

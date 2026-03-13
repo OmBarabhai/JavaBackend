@@ -1,0 +1,51 @@
+/*
+============================================================================
+COMMAND LINE ARGUMENTS – JAVA
+Author: Om
+============================================================================
+
+String[] args represents command line arguments.
+
+Example command:
+
+java Demo5 input.txt output.txt
+
+args array will store:
+
+args[0] = input.txt
+args[1] = output.txt
+
+----------------------------------------------------------------------------
+
+Example:
+
+System.out.println(args.length);
+
+Prints number of arguments passed.
+
+----------------------------------------------------------------------------
+
+Example loop:
+
+for(int i=0;i<args.length;i++){
+    System.out.println(args[i]);
+}
+
+----------------------------------------------------------------------------
+
+If no arguments passed:
+
+args.length = 0
+
+----------------------------------------------------------------------------
+
+INTERVIEW POINT
+
+main method signature:
+
+public static void main(String[] args)
+
+String[] args stores command line inputs passed to program.
+
+============================================================================
+*/
